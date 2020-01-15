@@ -24,6 +24,19 @@ _Useful Links_:
 ### Provisioning
 TBD
 
+### Image Storage - Azure
+Azure will host your VM images for you. There is a service called [Azure Shared Image Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries).
+This will allow teams to share across the org. It can also be used with [Azure Virtual Machine Scale Sets](https://azure.microsoft.com/en-us/services/virtual-machine-scale-sets/).
+It appears that you do not have to use this service if you would prefer to just have managed VM images. 
+
+_Pricing (according to the [blog](https://azure.microsoft.com/en-us/blog/azure-shared-image-gallery-now-generally-available/))_:
+* Storage charges for image versions and replicas in each region, source and target
+* Network egress charges for replication across regions
+
+_Useful Links_:
+* [Microsoft Docs - Azure Shared Image Gallery Overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries)
+* [Microsoft Blog - Azure Shared Image Gallery now generally available](https://azure.microsoft.com/en-us/blog/azure-shared-image-gallery-now-generally-available/) 
+
 # Other Useful Links
 Step by step guide for building a windows image with packer using inline powershell provisioner:
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/build-image-with-packer
