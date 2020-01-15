@@ -10,6 +10,7 @@ not been tested yet.
 _Userful Links:_
 * [Microsoft Docs - Build Machine Image Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/packer-build?view=azure-devops)
 * [GitHub - Microsoft - azure-pipeline-tasks repo](https://github.com/Microsoft/azure-pipelines-tasks)
+* [Azure DevOps Docs - Define Variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables)
 
 ### Image Creation - Packer
 [Packer.io](https://www.packer.io/) is tool designed to create images. It can use various provisioners including robust
